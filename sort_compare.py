@@ -1,3 +1,6 @@
+#! usr/bin/env python
+#! -*- coding: utf-8 -*-
+
 """
 ====================================
 Part 2 - Search Algorithm Comparison
@@ -145,15 +148,4 @@ def main():
 
 
 if __name__ == "__main__":
-    # for numb_list in insertion_search_shell():
-    #    print(numb_list)
-    # iss = Timer("insertion_search_shell()", "from __main__ import insertion_search_shell")
-    # ss = Timer("shell_sort()", "from __main__ import shell_sort")
-    # ips = Timer("python_sort()", "from __main__ import python_sort")
-
-    # print("insertion_sort: ", iss.timeit(number=1000), "milliseconds")
-    # print(results_message.format("Shell ", ss.timeit(number=1000)))
-    # print("python_sort: ", ps.timeit(number=1000), "milliseconds")
-    #for row in shell_sort():
-    #    print(row)
-    shell_sort()
+    main()
